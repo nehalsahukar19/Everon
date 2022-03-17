@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    font-family: 'Irish Grover',cursive;
+    font-family: 'Oswald',sans-serif;
+}
+body{
+    background-image: url("images/bgforcontactus.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 200%;
+    padding-top: 25px;
+}
+.header-cont{
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+.header{
+    /*min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;*/
+    height: 105px;
+    border: 1px solid rgb(20, 20, 20);
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(61, 60, 60);
+}
+.content{
+    padding-top: 25px;
+    width: auto;
+    border: 1px solid black;
+    height: 200px;
+    margin: 70px auto;
+}
+.logoimg{
+  width: 100px;
+  height: 80px;
+}
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: rgb(250, 249, 249);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    /*background: royalblue;*/
+    display: block;
+    margin: auto;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+    background: rgb(34, 91, 250);
+    border-radius: 20px;
+}
+p{
+    color:rgb(52, 55, 248);
+    font-size: 20px;
+}
+.container{
+    background-color: blue;
+    text-align: center;
+}
+.column{
+    float:left;
+    width: 290px;
+    padding: 5px;
+    text-align: center;
+}
+img{
+    width:100%;
+}
+h1{
+    color: red;
+}
