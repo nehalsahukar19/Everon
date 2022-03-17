@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EVERON SCHOOL</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-repeat:no-repeat;background-size: 100% 200%;" >
+    <!----
+    <div class="moving">
+    <script>
+    window.onload = function () {
+     // Array of Images
+      var backgroundImg=["images/eagle.png",
+                        "https://alvas.org/wp-content/uploads/2018/08/Shatha_Sambhrama-1.jpg",
+                        "https://alvas.org/wp-content/uploads/2018/04/01.jpg",
+                        "https://alvas.org/wp-content/uploads/2018/04/01.jpg"
+                        ]
+
+        setInterval(changeImage, 5000);
+       function changeImage() {   
+        var i = Math.floor((Math.random() * 3));
+
+        document.body.style.backgroundImage = "url('"+backgroundImg[i]+"')";
+
+      }
+    }
+    </script>
+    </div>--->
+    <div class="header-cont">
+    <div class="header">
+        <nav class="bg-im">
+            <a href="http://127.0.0.1:5501/homepagee.html#"><img src="images/logoo-removebg-preview.png" class="logoimg"></a>
+            
+            <div class="nav-link" id="navLink">
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/homepagee.html#">HOME</a></li>
+                    <li><a href="http://127.0.0.1:5501/about.html">ABOUT</a></li>
+                    <li><a href="http://127.0.0.1:5501/contactus.html">CONTACT US</a></li>
+                    <li><a href="http://127.0.0.1:5501/login.html">RESULTS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </div>
+    
+    <!--<div class="moving">
+        <script src="homepage.js"></script>
+        
+     </div>--->
+     <br><br><br><br><br>
+    <!--<script src="features.js"></script>--->
+    <img src="" id="image" style="display: block; width: 1000px; height: 400px; margin: 0 auto;">
+    <script type="text/javascript">
+        let image= document.getElementById('image');
+        let images= ["images/tarang.jpeg","images/karate1.jpeg","images/tarang1.jpeg","images/education.jpeg"];
+        setInterval(function(){
+            let random = Math.floor(Math.random() * 4);
+            image.src = images[random];
+        }, 800);
+    </script>
+    <div class="content">
+        <br>
+        <div class="container">
+            <h1>ABCD</h1>
+            <div class="column">
+                <a href="http://127.0.0.1:5501/features.html"><img src="images/features.jpg" alt="image1" height="300px" width="275px"></a>
+                <p class="container"><span>FEATURES</span></p>
+            </div>
+            <div class="column">
+                <a href="http://127.0.0.1:5501/sylabus.html"><img src="images/sylabus.png" alt="image1" height="300px" width="275px"></a>
+                <p class="container"><span>SYLLABUS WITH SOLUTIONS</span></p>
+            </div>
+            <div class="column">
+                <a href="http://127.0.0.1:5501/celebrate.html"><img src="images/celebrate.png" alt="image1" height="300px" width="275px"></a>
+                <p class="container"><span>CELEBRATIONS</span></p>
+            </div>
+            <div class="column">
+                <a href="http://127.0.0.1:5501/media.html"><img src="images/media.png" alt="image1" height="300px" width="275px"></a>
+                <p class="container" ><span>MEDIA</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
